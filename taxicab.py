@@ -2,7 +2,7 @@
 # Date: 2/4/2021
 # Description: Sets coordinate and keeps track of movement for Taxicab.
 
-class Taxicab:
+class Taxicab():
     """
     Creates the class, Taxicab.
     """
@@ -31,3 +31,10 @@ class Taxicab:
     def move_y(self, distance):
         self.y_coordinate += distance
         self.odometer += abs(distance)
+
+
+cab = Taxicab(5, -8)       # creates a Taxicab object at coordinates (5, -8)
+cab.move_x(3)              # moves cab 3 units "right"
+cab.move_y(-4)             # moves cab 4 units "down"
+cab.move_x(-1)             # moves cab 1 unit "left"
+print(cab.get_odometer())  # prints the current odometer reading
