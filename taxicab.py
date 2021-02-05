@@ -1,6 +1,6 @@
 # Author: Paul Quaife
 # Date: 2/4/2021
-# Description:
+# Description: Sets coordinate and keeps track of movement for Taxicab.
 
 class Taxicab:
     """
