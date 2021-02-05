@@ -2,7 +2,7 @@
 # Date: 2/4/2021
 # Description: Sets coordinate and keeps track of movement for Taxicab.
 
-class Taxicab():
+class Taxicab:
     """
     Creates the class, Taxicab.
     """
